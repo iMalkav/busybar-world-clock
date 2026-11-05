@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "app.imalkav.world_clock",
+  "name": "World Clock",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "author": "iMalkav",
+  "description": "Switch between named clocks with fixed UTC offsets.",
+  "heap_size_kib": 256,
+  "debug": false
+}

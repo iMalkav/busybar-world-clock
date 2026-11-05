@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "clocks": {
+      "type": "string",
+      "label": "Clocks",
+      "default": "UTC=0;Moscow=180;Delhi=330",
+      "max_length": 255,
+      "sensitive": false
+    },
+    "show_seconds": {
+      "type": "boolean",
+      "label": "Seconds",
+      "default": true
+    },
+    "auto_rotate": {
+      "type": "boolean",
+      "label": "Auto rotate",
+      "default": false
+    }
+  }
+}
