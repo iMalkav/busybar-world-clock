@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-11-05T13:58:08.458689+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.world_clock",
+    "name": "World Clock",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "Switch between named clocks with fixed UTC offsets.",
+    "heap_size_kib": 256,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "clocks": "UTC=0;Moscow=180;Delhi=330",
+      "show_seconds": true,
+      "auto_rotate": false
+    }
+  },
+  "inputs": [],
+  "data_note": "Schema default settings.",
+  "fixture": null,
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "24bca0faed8257bae592e210a5e16ca5a5b8b2c1d32afa4035ed876f31886ace",
+      "png_sha256": "95e5832bbb10552806a3e6640dd0d21f10482fb0e1f6e0be7310090f72ee71bd"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "fb5da2b55d909fdfea1a32b99a19a263f15e99ffcd9e86f1ded5d23030e9008b",
+      "png_sha256": "72c49c4e85073edb3a6aab4026e97b7c7d0ba309a5342ebc003a4ea7a96df43b"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
